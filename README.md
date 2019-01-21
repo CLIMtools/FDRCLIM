@@ -21,10 +21,10 @@ We recommend the user of CLIMGeno to become familiar with the limitations inhere
 
 For a more detailed description of the logic behind the Zbrowse viewer in this tool visit the user manual by Greg Ziegler.
 
-## [Data availability](https://github.com/CLIMtools/AraCLIM/tree/master/data)
+## [Data availability](https://github.com/CLIMtools/FDRCLIM/tree/master/data)
 The data from the GxE associations provided by this tool as is available in the data/ folder. 
 
 ## [Citation](https://www.nature.com/articles/s41559-018-0754-5)
 **Ferrero-Serrano, Á & Assmann SM.** Phenotypic and genome-wide association with the local environment of Arabidopsis. Nature Ecology & Evolution. doi: 10.1038/s41559-018-0754-5 (2019)
 
-[<img align="left" src="https://github.com/CLIMtools/CLIMGeno/blob/master/Screen Shot.png">](https://rstudio.aws.science.psu.edu:3838/aaf11/CLIMGeno/ "CLIMGeno")
+[<img align="left" src="https://github.com/CLIMtools/FDRCLIM/blob/master/Screen Shot.png">](https://rstudio.aws.science.psu.edu:3838/aaf11/FDRCLIM/ "FDRCLIM")
