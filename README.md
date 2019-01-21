@@ -11,7 +11,7 @@ In order to use this application:
 
 3. To view useful visualizations of the results refer to the 'Figures' tab for plots produced by qvalue package. Allow enough time for calculations and plot redering. When you are finished with your analysis, you may click the 'Download Output' button to save your results.
 
-## [Citation](https://www.nature.com/articles/s41559-018-0754-5)
+## [Citations](https://www.nature.com/articles/s41559-018-0754-5)
 **Ferrero-Serrano, Á & Assmann SM.** Phenotypic and genome-wide association with the local environment of Arabidopsis. Nature Ecology & Evolution. doi: 10.1038/s41559-018-0754-5 (2019)
 
  - Estimation Methodology: Storey JD. (2002) A direct approach to false discovery rates. Journal of the Royal Statistical Society, Series B, 64: 479-498.
