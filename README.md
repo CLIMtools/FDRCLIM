@@ -1,30 +1,25 @@
 [<img align="left" width="150" height="150" src="https://github.com/CLIMtools/FDRCLIM/blob/master/www/picture2.png">](https://rstudio.aws.science.psu.edu:3838/aaf11/CLIMGeno/ "CLIMGeno")
 
 # [FDRCLIM](https://rstudio.aws.science.psu.edu:3838/aaf11/FDRCLIM/ "FDRCLIM")
-[**FDRCLIM**](https://rstudio.aws.science.psu.edu:3838/aaf11/FDRCLIM/) (https://rstudio.aws.science.psu.edu:3838/aaf11/FDRCLIM/) is an SHINY component of [**Arabidopsis CLIMtools**](http://www.personal.psu.edu/sma3/CLIMtools.html) (http://www.personal.psu.edu/sma3/CLIMtools.html) originally adapted from the [**Zbrowse viewer**] (http://www.baxterlab.org/untitled-cqi0) created by the [**Baxter laboratory**] (http://www.baxterlab.org/) intended to explore the genetic variation associated with the environment.
+[**FDRCLIM**](https://rstudio.aws.science.psu.edu:3838/aaf11/FDRCLIM/) (https://rstudio.aws.science.psu.edu:3838/aaf11/FDRCLIM/) is an SHINY component of [**Arabidopsis CLIMtools**](http://www.personal.psu.edu/sma3/CLIMtools.html) (http://www.personal.psu.edu/sma3/CLIMtools.html) implementing the qvalue R package, adapted from the app created by Andrew Bass. This tool allows to explore the FDR of the ExG associations that can be studied in CLIMGeno and GenoCLIM. The qvalue R package is by John Storey et al. and can be found at Bioconductor's repository: qvalue package
 
-Navigation through the graphs and tables in CLIMGeno is done using the tabs at the top of the page, adjusting options on the sidebar panel, or clicking points on the plots. The user interface is designed to be intuitive and allow the user to quickly zoom into a point of interest anywhere on the genome.
+In order to use this application:
 
-To use this application choose the ExG association of interest from the left panel. The table on this tab provides a summary of the 25 variants with the strongest associations to the selected variable:
+1. Choose the ExG association of interest
 
-1. The Data Table tab provides a full description of the associated variants for the selected environmental variable. The user can easily manage the columns to be shown, rank based on score or q-value, or search and retrieve information for any associated variant.
+2. It is then possible to modify the settings that are used to estimate q-values with the various options on the side panel. See the 'Help' tab in the application or see the user manual for the qvalue package by John D. Storey and Andrew J. Bassfor explanations of these options.
 
-2. The whole genome view tab provides an interactive Manhattan plot with the variants associated with the environmental variable of interest. The may manage the genetic variants on this plot based on its predicted effect (missense, synonymous variants, etc.). Scrolling over the variants in the plot retrieves the specific information on that variant. Clicking on it, automatically renders the plot shown in the next tab (chromosome view). Alternatively, the user can click and drag over a region of interest.
-
-3. In the chromosome view tab, the user obtains an amplified view of the genetic region of interest. Clicking any variant in the top plot will automatically render in the bottom plot, a window size determined by the user on the left panel. This feature allows for the exploration of the region within linkage disequilibrium for the selected variant. The user can then explore nearby genes as well as other variants associated with the environmental variable of interest within the same genetic region.
-
-4. The annotation table tab, provides an interactive table with the information in the genetic region selected in the previous tab.
-
-This tool provides information on the q-values for all associated variants for the user to impose a particular FDR if desired. We recommend the exploration of the FDR parameters for these ExG association using our FDRCLIM tool.
-
-We recommend the user of CLIMGeno to become familiar with the limitations inherent to genome-wide association studies, for which a description is available in the left panel.
-
-For a more detailed description of the logic behind the Zbrowse viewer in this tool visit the user manual by Greg Ziegler.
-
-## [Data availability](https://github.com/CLIMtools/FDRCLIM/tree/master/data)
-The data from the GxE associations provided by this tool as is available in the data/ folder. 
+3. To view useful visualizations of the results refer to the 'Figures' tab for plots produced by qvalue package. Allow enough time for calculations and plot redering. When you are finished with your analysis, you may click the 'Download Output' button to save your results.
 
 ## [Citation](https://www.nature.com/articles/s41559-018-0754-5)
 **Ferrero-Serrano, Á & Assmann SM.** Phenotypic and genome-wide association with the local environment of Arabidopsis. Nature Ecology & Evolution. doi: 10.1038/s41559-018-0754-5 (2019)
+
+ - Estimation Methodology: Storey JD. (2002) A direct approach to false discovery rates. Journal of the Royal Statistical Society, Series B, 64: 479-498.
+
+- Genomics: Storey JD and Tibshirani R. (2003) Statistical significance for genome-wide studies. Proceedings of the National Academy of Sciences, 100: 9440-9445. [PDF] 
+
+- Bayesian Connections: Storey JD. (2003) The positive false discovery rate: A Bayesian interpretation and the q-value. Annals of Statistics, 31: 2013-2035. 
+
+- Theory: Storey JD, Taylor JE, and Siegmund D. (2004) Strong control, conservative point estimation, and simultaneous conservative consistency of false discovery rates: A unified approach. Journal of the Royal Statistical Society, Series B, 66: 187-205.
 
 [<img align="left" width="1000"  src="https://github.com/CLIMtools/FDRCLIM/blob/master/Screen Shot.png">](https://rstudio.aws.science.psu.edu:3838/aaf11/FDRCLIM/ "FDRCLIM")
