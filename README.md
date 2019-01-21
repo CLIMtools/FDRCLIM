@@ -27,4 +27,4 @@ The data from the GxE associations provided by this tool as is available in the 
 ## [Citation](https://www.nature.com/articles/s41559-018-0754-5)
 **Ferrero-Serrano, Á & Assmann SM.** Phenotypic and genome-wide association with the local environment of Arabidopsis. Nature Ecology & Evolution. doi: 10.1038/s41559-018-0754-5 (2019)
 
-[<img align="left" width="400" height="400" src="https://github.com/CLIMtools/FDRCLIM/blob/master/Screen Shot.png">](https://rstudio.aws.science.psu.edu:3838/aaf11/FDRCLIM/ "FDRCLIM")
+[<img align="left" width="1000"  src="https://github.com/CLIMtools/FDRCLIM/blob/master/Screen Shot.png">](https://rstudio.aws.science.psu.edu:3838/aaf11/FDRCLIM/ "FDRCLIM")
