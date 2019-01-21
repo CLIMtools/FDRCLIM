@@ -32,7 +32,7 @@ shinyUI(fluidPage(
     selectInput('file', 'Choose ExG association', setNames(files, files)),
     tags$hr(),
     checkboxInput('header', 'Header', TRUE),
-    wellPanel(a(h4('Please cite us:'),  href = "https://www.nature.com/articles/s41559-018-0754-5", h6('Ferrero-Serrano, Á & Assmann SM. Phenotypic and genome-wide association with the local environment of Arabidopsis. Nature Ecology & Evolution. doi: 10.1038/s41559-018-0754-5 (2019)' ))),
+    wellPanel(a(h4('Please cite us in any publication that utilizes information from Arabidopsis CLIMtools:'),  href = "https://www.nature.com/articles/s41559-018-0754-5", h6('Ferrero-Serrano, Á & Assmann SM. Phenotypic and genome-wide association with the local environment of Arabidopsis. Nature Ecology & Evolution. doi: 10.1038/s41559-018-0754-5 (2019)' ))),
     
     wellPanel(
       p( strong( HTML("&pi;<sub>0</sub>"), "estimate inputs")),
