@@ -17,6 +17,10 @@ Please visit the [Assmann lab](http://www.personal.psu.edu/sma3/) to learn about
 ## [Citations](https://www.nature.com/articles/s41559-018-0754-5)
 **Ferrero-Serrano, Á & Assmann SM.** Phenotypic and genome-wide association with the local environment of Arabidopsis. Nature Ecology & Evolution. doi: 10.1038/s41559-018-0754-5 (2019)
 
+
+[**Read-only link to our paper**](https://www.nature.com/articles/s41559-018-0754-5.epdf?author_access_token=uMF6Vr-F9VgWSbqwx3ol4tRgN0jAjWel9jnR3ZoTv0MbnmJteG8gNCxdeNQO1H4w_SmcB99HlQmvk-xORaUBX)
+
+
  - Estimation Methodology: Storey JD. (2002) A direct approach to false discovery rates. Journal of the Royal Statistical Society, Series B, 64: 479-498.
 
 - Genomics: Storey JD and Tibshirani R. (2003) Statistical significance for genome-wide studies. Proceedings of the National Academy of Sciences, 100: 9440-9445. [PDF] 
